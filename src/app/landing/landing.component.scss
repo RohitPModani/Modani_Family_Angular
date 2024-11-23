@@ -4,17 +4,16 @@
 
 @supports (height: 100dvh) {
   :root {
-    --vh: 100dvh; // Dynamic viewport height for modern browsers
+    --vh: 100dvh; // Use dynamic viewport height for mobile browsers
   }
 }
 
 html, body {
   margin: 0;
   padding: 0;
-  height: var(--vh); // Use the dynamic height variable
-  width: 100%; // Full width, ensure no overflow
-  overflow-x: hidden; // Prevent horizontal scroll
-  overflow-y: hidden; // Avoid unwanted vertical scrolling
+  height: var(--vh); // Use dynamic height
+  width: 100%; // Ensure full width
+  overflow: hidden; // Prevent unwanted scrolling
   -webkit-overflow-scrolling: touch; // Smooth scrolling for Safari
 }
 
@@ -34,8 +33,9 @@ html, body {
   cursor: pointer;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  max-height: calc(var(--vh) - 40px); // Ensure the card fits within the viewport
-  margin: auto;
+  max-height: calc(var(--vh) - 40px); // Ensure it stays within viewport
+  margin: 0 auto;
+  overflow-y: auto; // Scroll inside the card if needed
 
   &:hover {
     transform: scale(1.1);
