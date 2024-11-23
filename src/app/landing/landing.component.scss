@@ -1,26 +1,41 @@
+// Define dynamic viewport height variable
 :root {
-  --vh: 100vh; // Default viewport height
-}
+  /* Default to 100vh */
+  --vh: 100vh;
 
-@supports (height: 100dvh) {
-  :root {
-    --vh: 100dvh; // Use dynamic viewport height for mobile browsers
+  /* Modern browsers supporting dynamic height */
+  @supports (height: 100dvh) {
+    --vh: 100dvh;
   }
 }
 
+// Apply height and fix for Safari
 html, body {
   margin: 0;
   padding: 0;
-  height: var(--vh); // Use dynamic height
-  width: 100%; // Ensure full width
-  overflow: hidden; // Prevent unwanted scrolling
-  -webkit-overflow-scrolling: touch; // Smooth scrolling for Safari
+  width: 100%; /* Ensure full width */
+  height: var(--vh); /* Use dynamic viewport height */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-y: hidden; /* Prevent vertical scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for Safari */
 }
 
+body {
+  height: -webkit-fill-available; /* Safari-specific height fallback */
+}
+
+// Apply box-sizing globally
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
+// Body styling
+body {
+  font-family: 'Merriweather', serif;
+  background: linear-gradient(135deg, #8aaed0, #bfe3ea) !important; // Gradient background
+}
+
+// Glass effect card
 .glass-card {
   font-size: 4rem;
   font-weight: 900;
@@ -33,9 +48,9 @@ html, body {
   cursor: pointer;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  max-height: calc(var(--vh) - 40px); // Ensure it stays within viewport
-  margin: 0 auto;
-  overflow-y: auto; // Scroll inside the card if needed
+  max-height: calc(var(--vh) - 40px); /* Ensure the card fits within viewport */
+  margin: auto;
+  overflow-y: auto; /* Allow scrolling inside if needed */
 
   &:hover {
     transform: scale(1.1);
