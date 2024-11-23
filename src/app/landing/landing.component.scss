@@ -1,13 +1,27 @@
-// styles.scss
-
-// Ensure the gradient background is applied globally
-body {
-  margin: 0;
-  font-family: 'Merriweather', serif;
-  background: linear-gradient(135deg, #8aaed0, #bfe3ea) !important; // Force gradient to apply
+:root {
+  --vh: 100vh; // Default viewport height
 }
 
-// Glass effect for all cards globally
+@supports (height: 100dvh) {
+  :root {
+    --vh: 100dvh; // Dynamic viewport height for modern browsers
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: var(--vh); // Use the dynamic height variable
+  width: 100%; // Full width, ensure no overflow
+  overflow-x: hidden; // Prevent horizontal scroll
+  overflow-y: hidden; // Avoid unwanted vertical scrolling
+  -webkit-overflow-scrolling: touch; // Smooth scrolling for Safari
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 .glass-card {
   font-size: 4rem;
   font-weight: 900;
@@ -20,6 +34,8 @@ body {
   cursor: pointer;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-height: calc(var(--vh) - 40px); // Ensure the card fits within the viewport
+  margin: auto;
 
   &:hover {
     transform: scale(1.1);
