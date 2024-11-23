@@ -1,0 +1,58 @@
+// Person Detail Page Styling
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background: linear-gradient(135deg, #8aaed0, #bfe3ea) !important;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 94vh;
+  padding: 1rem;
+  gap: 2rem;  // Remove excessive space
+}
+
+.glass-card {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2); /* Slightly dark transparent background */
+  backdrop-filter: blur(10px); /* Glass effect */
+  border-radius: 20px;
+  padding: 20px 40px;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.content {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .glass-card {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .glass-card {
+    font-size: 1rem;
+  }
+}

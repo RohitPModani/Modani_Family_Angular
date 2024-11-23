@@ -1,0 +1,31 @@
+<div class="container mt-5">
+  <!-- Display parent card -->
+  <div
+    class="glass-card p-4 text-center"
+    *ngIf="!showChildren">
+
+    <!-- Parent card is clickable only if children exist -->
+    <h2
+      [class.clickable]="person?.children?.length > 0"
+      (click)="person?.children?.length > 0 && loadChildren()">
+      {{ person?.name }}
+    </h2>
+
+    <!-- Message for parents without children -->
+    <p *ngIf="!person?.children || person?.children.length === 0" class="no-children-message">
+      This person has no children.
+    </p>
+  </div>
+
+  <!-- Display children -->
+  <div class="content" *ngIf="showChildren && person?.children">
+    <div
+      *ngFor="let child of person?.children"
+      class="glass-card p-4 text-center child-card"
+      (click)="navigateToChild(child.id)">
+
+      <!-- Child name -->
+      <h3>{{ child.name }}</h3>
+    </div>
+  </div>
+</div>
