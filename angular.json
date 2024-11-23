@@ -23,7 +23,7 @@
                 ]
             },
             "outputPath": "dist/modani-family",
-            "index": "index.html",
+            "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -36,7 +36,7 @@
               "src/assets"
             ],
             "styles": [
-              "styles.scss",
+              "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
@@ -97,7 +97,7 @@
               "src/assets"
             ],
             "styles": [
-              "styles.scss"
+              "src/styles.scss"
             ],
             "scripts": []
           }
