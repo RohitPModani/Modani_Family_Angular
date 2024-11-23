@@ -16,19 +16,19 @@ export class FamilyTreeService {
             children: [
               {
                 id: 'Srinivas-Kids',
-                name: 'Srinivas',
+                name: 'Srinivas - Kaveri Bai (Innani)',
                 children: [
                   {
                     id: 'Srivallabh-Kids',
-                    name: 'Srivallabh',
+                    name: 'Srivallabh - Kamala Bai (Bajaj)',
                     children: [
                       {
                         id: 'OmPrakash-Kids',
-                        name: 'Om Prakash',
+                        name: 'Om Prakash - Premlatha (Kankani)',
                         children:[
                           {
                             id: 'ShyamSunder-Kids',
-                            name: 'ShyamSunder',
+                            name: 'Shyam Sunder - Poonam (Saboo)',
                             children:[
                               {
                                 id: 'Vidhi',
@@ -46,29 +46,29 @@ export class FamilyTreeService {
                           },
                           {
                             id: 'Meena',
-                            name: 'Meena'
+                            name: 'Meena - Pavan Navander'
                           },
                           {
                             id: 'Madhu',
-                            name: 'Madhu'
+                            name: 'Madhu - Deepak Kasat'
                           },
                           {
                             id: 'Poonam',
-                            name: 'Poonam'
+                            name: 'Poonam - Aditya Narania'
                           }
                         ]
                       },
                       {
                         id: 'Jugalkishore',
-                        name: 'JugalKishore',
+                        name: 'JugalKishore - Jyothi (Somani)',
                         children: [
                           {
                             id: 'Preethi',
-                            name: 'Preethi'
+                            name: 'Preethi - Deepak Harkut'
                           },
                           {
                             id: 'Swathi',
-                            name: 'Swathi'
+                            name: 'Swathi - Mahesh Jaju'
                           },
                           {
                             id: 'Gowtham',
@@ -78,11 +78,11 @@ export class FamilyTreeService {
                       },
                       {
                         id: 'Lakshmikanth',
-                        name: 'Lakshmikanth',
+                        name: 'Lakshmikanth - Sunitha (Laturia)',
                         children: [
                           {
                             id: 'Radhika',
-                            name: 'Radhika'
+                            name: 'Radhika - Ranganath Sarda'
                           },
                           {
                             id: 'Priyanka',
@@ -96,15 +96,15 @@ export class FamilyTreeService {
                       },
                       {
                         id: 'GopiKishan',
-                        name: 'Gopi Kishan',
+                        name: 'Gopi Kishan - Geetha (Navander)',
                         children: [
                           {
                             id: 'GopiManish',
-                            name: 'Manish'
+                            name: 'Manish - Namratha (Jhawar)'
                           },
                           {
                             id: 'Tarun',
-                            name: 'Tarun'
+                            name: 'Tarun - Prerna (Bang)'
                           }
                         ]
                       }
@@ -120,19 +120,19 @@ export class FamilyTreeService {
             children: [
               {
                 id: 'RamKunwar-Kids',
-                name: 'Ram Kunwar',
+                name: 'Ram Kunwar - Narayani Bai (Baldawa)',
                 children: [
                   {
                     id: 'GovindLal-Kids',
-                    name: 'Govind Lal',
+                    name: 'Govind Lal - Geetha (Bajaj)',
                     children: [
                       {
                         id: 'KamalKishore-Kids',
-                        name: 'Kamal Kishore',
+                        name: 'Kamal Kishore - Leela (Bang)',
                         children: [
                           {
                             id: 'Chetan',
-                            name: 'Chetan'
+                            name: 'Chetan - Preethi'
                           },
                           {
                             id: 'Tarkesh',
@@ -154,25 +154,25 @@ export class FamilyTreeService {
                       },
                       {
                         id: 'Ranjana',
-                        name: 'Ranjana'
+                        name: 'Ranjana - Om Prakash Attal'
                       },
                       {
                         id: 'Kiran',
-                        name: 'Kiran'
+                        name: 'Kiran - Damodar Kalani'
                       }
                     ]
                   },
                   {
                     id: 'RamNarayan-Kids',
-                    name: 'Ram Narayan',
+                    name: 'Ram Narayan - Shanta Bai (Palod)',
                     children: [
                       {
                         id: 'Prakash-Kids',
-                        name: 'Prakash Chand',
+                        name: 'Prakash Chand - Srikantha (Kalantri)',
                         children: [
                           {
                             id: 'Mahesh',
-                            name: 'Mahesh'
+                            name: 'Mahesh - Vanadana (Lahoti)'
                           },
                           {
                             id: 'Rohit',
@@ -180,13 +180,13 @@ export class FamilyTreeService {
                           },
                           {
                             id: 'Rakhee',
-                            name: 'Rakhee'
+                            name: 'Rakhee - Ambesh Dhoot'
                           }
                         ]
                       },
                       {
                         id: 'Venugopal-Kids',
-                        name: 'Venu Gopal',
+                        name: 'Venu Gopal - Rekha (Mundada)',
                         children: [
                           {
                             id: 'VenuManish',
@@ -200,7 +200,7 @@ export class FamilyTreeService {
                       },
                       {
                         id: 'Roshan-Kids',
-                        name: 'Roshan',
+                        name: 'Roshan - Jyothi (Rathi)',
                         children: [
                           {
                             id: 'Muskaan',
@@ -214,25 +214,25 @@ export class FamilyTreeService {
                       },
                       {
                         id: 'Kavitha',
-                        name: 'Kavitha'
+                        name: 'Kavitha - Shyam Sunder Bhattad'
                       },
                       {
                         id: 'Seema',
-                        name: 'Seema'
+                        name: 'Seema - Navin Jaju'
                       },
                       {
                         id: 'Savitha',
-                        name: 'Savitha'
+                        name: 'Savitha - Susil Lahoti'
                       },
                       {
                         id: 'Usha',
-                        name: 'Usha'
+                        name: 'Usha - Pawan Kabra'
                       }
                     ]
                   }
                 ]
               }
-            ] // Add children here if any
+            ]
           },
           {
             id: 'ChunniLal',
@@ -240,19 +240,19 @@ export class FamilyTreeService {
             children: [
               {
                 id: 'RamPrasad',
-                name: 'Ram Prasad'
+                name: 'Ram Prasad - Kesar Bai (Toshniwal)'
               },
               {
                 id: 'RamVilas-Kids',
-                name: 'Ram Vilas',
+                name: 'Ram Vilas - Shanta (Rathi)',
                 children: [
                   {
                     id: 'Bharat-Kids',
-                    name: 'Bharat',
+                    name: 'Bharat - Madhu (Mundada)',
                     children: [
                       {
                         id: 'BharatRohit-Kids',
-                        name: 'Rohit',
+                        name: 'Rohit - Leena',
                         children: [
                           {
                             id: 'Moulik',
@@ -264,11 +264,11 @@ export class FamilyTreeService {
                   },
                   {
                     id: 'Pradeep-Kids',
-                    name: 'Pradeep',
+                    name: 'Pradeep - Uma (Mundada)',
                     children: [
                       {
                         id: 'Srikanth-Kids',
-                        name: 'Srikanth',
+                        name: 'Srikanth - Sneha',
                         children: [
                           {
                             id: 'Harshit',
@@ -282,27 +282,27 @@ export class FamilyTreeService {
                       },
                       {
                         id: 'Sonal',
-                        name: 'Sonal'
+                        name: 'Sonal - Neeraj Tapadia'
                       },
                       {
                         id: 'Pooja',
-                        name: 'Pooja'
+                        name: 'Pooja - Mayank Malpani'
                       }
                     ]
                   },
                   {
                     id: 'Shobha',
-                    name: 'Shobha'
+                    name: 'Shobha - Srinarayan Chandak'
                   }
                 ]
               },
               {
                 id: 'RamiBai',
-                name: 'RamiBai'
+                name: 'Rami Bai - Pannalal Rathi'
               },
               {
                 id: 'KamalaBai',
-                name: 'Kamala Bai'
+                name: 'Kamala Bai - Udayram Bharadiya'
               }
             ]
           },
@@ -316,11 +316,11 @@ export class FamilyTreeService {
                 children: [
                   {
                     id: 'RamKishore-Kids',
-                    name: 'Ram Kishore',
+                    name: 'Ram Kishore - Shakuntala (Bajaj)',
                     children: [
                       {
                         id: 'Krishnakanth-Kids',
-                        name: 'Krishna Kanth',
+                        name: 'Krishnakanth - Archana (Mantri)',
                         children: [
                           {
                             id: 'Raghav',
@@ -334,35 +334,35 @@ export class FamilyTreeService {
                       },
                       {
                         id: 'Archana',
-                        name: 'Archana'
+                        name: 'Archana - Shankarlal Attal'
                       },
                       {
                         id: 'Aarthi',
-                        name: 'Aarthi'
+                        name: 'Aarthi - Anand Sanghi Jaju'
                       }
                     ]
                   },
                   {
                     id: 'Rajkanwar',
-                    name: 'Rajkanwar'
+                    name: 'Rajkanwar - Jawarilal Gilda'
                   },
                   {
                     id: 'Mankanwar',
-                    name: 'Mankanwar'
+                    name: 'Mankanwar - Nanda Kishore Bhattad'
                   },
                   {
                     id: 'Padma',
-                    name: 'Padma'
+                    name: 'Padma - Jagadeesh Bhattad'
                   }
                 ]
               },
               {
                 id: 'Govardhan-Kids',
-                name: 'Govardhan',
+                name: 'Govardhan - Shyama Bai',
                 children: [
                   {
                     id: 'Govind-Kids',
-                    name: 'Govind',
+                    name: 'Govind - Kavitha (Malani)',
                     children: [
                       {
                         id: 'Navneet',
@@ -370,7 +370,7 @@ export class FamilyTreeService {
                       },
                       {
                         id: 'Anusha',
-                        name: 'Anusha'
+                        name: 'Anusha - Rohit Ladda'
                       }
                     ]
                   }
